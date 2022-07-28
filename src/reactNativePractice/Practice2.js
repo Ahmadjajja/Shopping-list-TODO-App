@@ -38,6 +38,7 @@ const Practice2 = () => {
       <TouchableOpacity
         style={styles.button}
         onPress={onPress}
+        activeOpacity={0.5}
       >
         <Text>Press Here</Text>
       </TouchableOpacity>
