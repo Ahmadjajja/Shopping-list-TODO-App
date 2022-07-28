@@ -22,7 +22,7 @@ const Practice2 = () => {
         <Button
           title="press me"
           onPress={() => {
-            Alert.alert("Congratulations! you Pressed this buttton");
+            Alert.alert("Congratulations! you Pressed this me");
             // setModalVisible(!modalVisible);
           }} 
           />
