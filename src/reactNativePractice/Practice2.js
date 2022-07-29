@@ -34,14 +34,15 @@ const Practice2 = () => {
       {/* </Modal> */}
       <View style={styles.countContainer}>
         <Text>Count: {count}</Text>
-      </View>
-      <TouchableOpacity
+        <TouchableOpacity
         style={styles.button}
         onPress={onPress}
         activeOpacity={0.5}
       >
         <Text>Press Here</Text>
       </TouchableOpacity>
+      </View>
+
     </View>
 
 
@@ -64,6 +65,8 @@ const styles = StyleSheet.create({
   },
   countContainer: {
     alignItems: "center",
+    justifyContent:"center",
+    flex:1,
     padding: 10
   }
 });
