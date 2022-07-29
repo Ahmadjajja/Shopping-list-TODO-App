@@ -1,6 +1,5 @@
 import { View, Text, StyleSheet, TextInput, TouchableOpacity } from 'react-native'
 import React,{useState} from 'react'
-// import Icon from "react-native-vector-icons/dist/FontAwesome"
 import Icon from 'react-native-vector-icons/dist/FontAwesome5'
 
 
@@ -13,7 +12,7 @@ const AddItem = ({ addItem}) => {  //destructuring uses in props space
             <TextInput placeholder='Add Item...' style={styles.input} onChangeText={onChange} />
             <TouchableOpacity style={styles.btn} onPress={()=>addItem(text)}>
                 <Text style={styles.btnText}>
-                    <Icon size={20} name="plus" />
+                    <Icon size={20} name="plus"  />
                     Add Item
                 </Text>
             </TouchableOpacity>
