@@ -39,7 +39,7 @@ const App1 = () => {
                     type,
                     name,
                 }
-                console.log("Image ", source)
+                console.log("Image required information", source)
                 cloudinaryUpload(source)
 
             }
